@@ -1,0 +1,13 @@
+name: OrbitalEternal
+version: 1.0.0
+main: com.orbitaleternal.OrbitalEternal
+api-version: '26.1.2'
+description: Wemmbu-inspired orbital cannon for scripted Minecraft content.
+commands:
+  orbitalEternal:
+    description: Get a one-use Orbital Eternal firing rod.
+    usage: /orbitalEternal <nuke|stab>
+permissions:
+  orbitaleternal.admin:
+    description: Allows use of Orbital Eternal.
+    default: op

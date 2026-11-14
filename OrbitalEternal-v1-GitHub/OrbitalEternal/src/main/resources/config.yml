@@ -1,0 +1,19 @@
+orbital:
+  enabled: true
+  height: 72
+  fuse-ticks: 80
+  total-charges: 760
+  ring-radii: [6, 11, 16, 21, 26, 31, 36, 41, 46, 51]
+  # 759 ring charges plus one center charge = 760
+  ring-counts: [24, 48, 56, 62, 68, 74, 80, 86, 92, 169]
+  scatter: 1.8
+  spawn-per-tick: 20
+  outward-spread-ticks: 80
+stab:
+  enabled: true
+  max-charges: 192
+  spacing: 2
+  fuse-ticks: 1
+  blast-resistance-stop: 1200.0
+performance:
+  max-active-strikes: 1
